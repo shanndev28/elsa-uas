@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+p {
+    margin: 1rem 0 1rem 0;
+    margin-top: 0;
+}
+
+.navbar {
+    margin: auto;
+    height: 80px;
+    width: 1260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .nav-brand {
+    font-size: .8rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.navbar .nav-link {
+    gap: 10px;
+    display: flex;
+}
+
+.navbar .nav-link a {
+    color: #000000;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.banner {
+    margin: auto;
+    width: 1260px;
+    height: 250px;
+    display: flex;
+    background: pink;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 2rem;
+    border-radius: 10px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.content {
+    gap: 10px;
+    margin: auto;
+    display: grid;
+    width: 1260px;
+    margin-top: 30px;
+}
+
+.content-tile {
+    grid-column-end: 5;
+    grid-column-start: 1;
+    text-transform: uppercase;
+}
+
+.img-kiri {
+    margin-top: .3rem;
+    grid-column-end: 1;
+    grid-column-start: 1;
+}
+
+.img-kiri img {
+    width: 260px;
+    border-radius: 5px;
+}
+
+.artikel {
+    text-align: justify;
+    grid-column-start: 2;
+    grid-column-start: 5;
+}
+
+.footer {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1260px;
+    height: 80px;
+    background: pink;
+    margin-top: 20px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: 600;
+}
+
+.form-kontak {
+    margin: auto;
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-control label {
+    font-size: .8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.form-control input {
+    width: 100%;
+    height: 10px;
+    border-width: 1px;
+    padding: 1rem 1em;
+    border-radius: 5px;
+}
+
+.form-control select {
+    width: 100%;
+    color: #000000;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: .5rem .5em;
+}
+
+.form-control textarea {
+    resize: none;
+    width: 100%;
+    height: 90px;
+    padding: 1rem 1em;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.form-button {
+    display: flex;
+    justify-content: right;
+}
+
+.form-button button {
+    border: none;
+    cursor: pointer;
+    color: #000000;
+    font-weight: 600;
+    font-size: .875rem;
+    padding: 0.5rem 1rem;
+    line-height: 1.25rem;
+    border-radius: 0.7rem;
+    text-transform: capitalize;
+    background-color: pink;
+}
+
+.galeri {
+    margin: auto;
+    width: 1260px;
+    margin-top: 10px;
+    margin-top: 1rem;
+    margin-bottom: 30px;
+}
+
+.galeri .galeri-container {
+    gap: 15px;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+
+.galeri .galeri-container .galeri-item {
+    width: 24%;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.galeri .galeri-container .galeri-item img {
+    width: 100%;
+    height: 230px;
+    border-radius: 5px;
+}
